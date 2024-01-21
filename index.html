@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadados, incluindo a codificação de caracteres e configurações de viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título da página que aparecerá na barra de título do navegador -->
+    <title>Document</title>
+</head>
+<body style="display: flex; flex-direction: column;">
+    <!-- Cabeçalho principal da página -->
+    <h1> Transcritor automático </h1>
+    
+    <!-- Área de texto para transcrição, readonly impede a edição pelo usuário -->
+    <textarea name="texto" 
+              id="texto-transcrito" 
+              cols="80" 
+              rows="6" 
+              placeholder="aperte o botão e fale" 
+              readonly></textarea>
+    
+    <!-- Botão de início, com estilos de largura máxima e margem -->
+    <button style="max-width: 10rem; margin: 2rem 0;">
+        Iniciar
+    </button>
+    <script src="./app.js"></script>
+</body>
+</html>
